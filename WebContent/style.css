@@ -1,0 +1,69 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	/*background-color: #F0FFFF;*/
+	/*background-image: url("http://www.deviantart.com/download/85995324/9071336939210267f29b02e7a6da9ce5.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;(scroll	)
+	background-position: right bottom;*/
+}
+
+h1 {
+	color: #990000;
+	background-color: #FC9804;
+}
+.bp_invalid {
+    color:red;
+   /* background:white;*/
+ }
+ .bp_valid {
+    color:green;
+ }
+ 
+ #tabs {
+
+	border-bottom: .5em solid #0033CC;
+
+	margin: 0;
+
+	padding: 0;
+
+}
+
+.regiserback{
+	background-image: url("images/cinemas.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+#tabs li { 
+
+	display:inline; 
+
+	border-top: .1em solid #03c;
+
+	border-left: .1em solid #03c;
+
+	border-right: .1em solid #03c;
+
+}
+
+#tabs li a {
+
+	text-decoration: none;
+
+	padding: 0.25em 1em;
+
+	color: #000;
+
+}
+
+#page1 #tabs li#tab1 a, #page2 #tabs li#tab2 a, #page3 #tabs li#tab3 a, .page4 li#tab4 a {
+
+	padding: 0.25em 1em;
+
+	background-color: #03c;
+
+	color: #fff;
+
+}
